@@ -12,7 +12,6 @@ client.on('ready', () => {
 client.on('message', msg => {
     console.log("msg", msg);
     if (msg.content === 'ping') {
-        console.log(msg.user)
         msg.reply('<@931580130114011136> <@&959549727756677133> <@&960878105046691852> <@&961335781912354819> <@&961520126354653205>  pong');
     }
 });
